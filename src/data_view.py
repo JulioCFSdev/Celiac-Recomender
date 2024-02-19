@@ -1,5 +1,5 @@
 import streamlit as st
-from backend import get_dataframe, process_tfidf_matrix, recommend_dishes
+from data_controller import get_dataframe, process_tfidf_matrix, recommend_dishes
 
 def calculate_daily_caloric_needs(sexo, peso, altura, idade, fator_atividade):
     # Fórmula de Harris-Benedict
